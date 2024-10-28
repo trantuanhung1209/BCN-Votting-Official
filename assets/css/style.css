@@ -534,6 +534,7 @@ input[type="checkbox"]:checked+.custom-checkbox i {
     color: #16035B;
     padding: 5px;
     border-radius: 8px;
+    font-size: 30px;
     font-weight: 700;
 }
 
