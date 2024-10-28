@@ -600,6 +600,7 @@ input[type="checkbox"]:checked+.custom-checkbox i {
 @media (min-width: 768.98px) {
     .main {
         padding-bottom: 80px;
+        height: 100vh;
     }
 
     .main__box--songs-item ul {
