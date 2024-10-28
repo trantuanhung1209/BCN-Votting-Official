@@ -617,7 +617,7 @@ input[type="checkbox"]:checked+.custom-checkbox i {
         backdrop-filter: blur(12px);
         border: 1px solid #FFFFFF1A;
         height: 84px;
-        margin-bottom: 36px;
+        margin-bottom: 32px;
     }
 
     .main__box--songs-item ul li::before {
