@@ -626,7 +626,7 @@ input[type="checkbox"]:checked+.custom-checkbox i {
         position: absolute;
         top: 0;
         left: 0;
-        width: var(--progress-width);
+        width: calc(var(--progress-width) + 50%);
         height: 100%;
         z-index: -1;
         background: linear-gradient(90deg, #FF8AF3 0%, #9286FF 100%);

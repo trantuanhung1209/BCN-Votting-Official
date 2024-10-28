@@ -99,15 +99,15 @@ const updateRanking = () => {
 
         // Cập nhật HTML với dữ liệu mới
         const htmls = groupedNames.map(item => {
-            const percentage = (((item.count) / userCount) * 100).toFixed(2) >= 100 ? 100 : (((item.count) / userCount) * 100).toFixed(2);
+            const percentage = (item.count) ;
             return `
-            <li class="performer-item" data-name="${item.name}" style="--progress-width: ${percentage}%;">
+            <li class="performer-item" data-name="${item.name}" style="--progress-width: ${percentage}px;">
                 <form action="#" class="main__box-content--form">
                     <div class="item--award">
                     <img src = "assets/images/award.png"/>
                     </div>
                     <label class="performer--name">${item.name}</label>
-                    <label class="quantity-vote">${percentage}%</label>
+                    <label class="quantity-vote">${percentage} votes</label>
                 </form>
             </li>
         `;
