@@ -516,8 +516,9 @@ input[type="checkbox"]:checked+.custom-checkbox i {
 /* end alert */
 .performer--name {
     color: #16035B;
-    font-size: 18px;
+    font-size: 30px;
     font-weight: 700;
+    text-align: center;
 }
 
 @media (max-width: 768.98px) {
@@ -554,7 +555,6 @@ input[type="checkbox"]:checked+.custom-checkbox i {
     [list-performer] li:first-child {
         background: linear-gradient(90deg, #FF8AF3 0%, #9286FF 100%);
         background-size: 200% 100%;
-        animation: gradient-move 0.5s infinite;
         border-radius: 8px;
 
     }
@@ -598,10 +598,14 @@ input[type="checkbox"]:checked+.custom-checkbox i {
 }
 
 @media (min-width: 768.98px) {
+    .main {
+        padding-bottom: 80px;
+    }
+
     .main__box--songs-item ul {
         display: flex;
         flex-direction: column;
-        gap: 50px;
+        gap: 30px;
         list-style: none;
         padding: 0;
         margin: 0;
@@ -612,7 +616,8 @@ input[type="checkbox"]:checked+.custom-checkbox i {
         border-radius: 8px;
         background: #FFFFFFB8;
         backdrop-filter: blur(12px);
-        border: 1px solid #FFFFFF1A
+        border: 1px solid #FFFFFF1A;
+        height: 84px;
     }
 
     .main__box--songs-item ul li::before {
@@ -633,7 +638,7 @@ input[type="checkbox"]:checked+.custom-checkbox i {
 
 /* comment demo */
 
-@keyframes gradient-move {
+/* @keyframes gradient-move {
     0% {
         background-position: 0% 50%;
     }
@@ -641,7 +646,7 @@ input[type="checkbox"]:checked+.custom-checkbox i {
     100% {
         background-position: 100% 50%;
     }
-}
+} */
 
 /* End comment demo */
 
@@ -675,7 +680,12 @@ input[type="checkbox"]:checked+.custom-checkbox i {
 
 /* ranking */
 .main__logo--ranking {
-    padding-top: 150px;
+    padding-top: 60px;
+}
+
+.logo--fit-ranking {
+    width: 430px;
+    height: 180px;
 }
 
 .main__title--ranking {
