@@ -588,7 +588,7 @@ input[type="checkbox"]:checked+.custom-checkbox i {
 
 @media (min-width: 768.98px) {
     .main__box--songs {
-        max-height: 550px;
+        max-height: 580px;
     }
 
     .main__title--desktop {
