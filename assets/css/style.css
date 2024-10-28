@@ -57,12 +57,12 @@ body {
     background-size: cover;
     padding-top: 50px;
     background-position: center;
-    height: 110vh;
+    height: 100vh;
 }
 
 @media (max-width: 1023.98px) {
     .main {
-        height: 120vh;
+        height: 100vh;
     }
 }
 
@@ -75,17 +75,17 @@ body {
 
 @media (max-width: 575.98px) {
     .main {
+        background: linear-gradient(135deg, #e2e2e2, #cfcfcf);
         background-image: url("/assets/images/PHONEBACKGROUP.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        height: 100vh;
     }
 }
 
-@media (max-width: 411.98px) {
+@media (max-width: 376.98px) {
     .main {
-        height: 110vh;
+        height: 100vh;
     }
 }
 
@@ -93,14 +93,14 @@ body {
     display: flex;
     flex-direction: column;
     gap: 26px;
-    padding: 26px 16px 50px 16px;
+    padding: 26px 16px 0px 16px;
     z-index: 9;
     position: relative;
 }
 
 @media (max-width: 575.98px) {
     .main__wrap {
-        padding: 16px 16px 50px 16px;
+        padding: 16px 16px 0px 16px;
         z-index: 9;
         position: relative;
     }
@@ -380,6 +380,28 @@ input[type="checkbox"]:checked+.custom-checkbox i {
     z-index: 99999;
 }
 
+.alert--link {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 0px 14px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: 2px 2px #5c5b5b;
+    border: 1px solid #FFFFFF;
+    background: linear-gradient(90deg, #FF8AF3 0%, #9286FF 100%);
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.alert--link i {
+    color: white;
+}
+
 
 @media (max-width: 991.98px) {
     .alert--confirm {
@@ -496,8 +518,7 @@ input[type="checkbox"]:checked+.custom-checkbox i {
 }
 
 [content-block] {
-    padding-bottom: 32px;
-    font-size: 36px;
+    font-size: 32px;
     text-align: center;
 }
 

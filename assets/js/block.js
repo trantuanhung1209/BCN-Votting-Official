@@ -4,8 +4,8 @@
 
 //comment demo
 setInterval(() => {
-    localStorage.setItem("isBlocked", "true");
     window.location.reload();
+    localStorage.setItem("isBlocked", "true");
 }, 5 * 60 * 1000);
 //End comment demo
 
